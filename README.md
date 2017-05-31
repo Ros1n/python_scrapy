@@ -1,6 +1,7 @@
 # python_scrapy
 practice/learning of python scrapy development
 
+#haven't finished yet
 
 #consuming_webpage.py
 this is a practice for consuming data in certain website. 
