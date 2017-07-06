@@ -16,7 +16,7 @@ class tumblr_scrapy:
 		content = requests.get(url).content #here equals to urllib2.urlopen(url)
 		soup = BeautifulSoup(content, 'lxml')
 		title = soup.title.string
-		print('the owner of this tumblr account: ' + title)
+		print('the tumblr account is: ' + title)
 		if not os.path.exists(title):
 			os.makedirs(title)
 		cur_dir = os.getcwd()
