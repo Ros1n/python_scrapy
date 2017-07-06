@@ -7,6 +7,6 @@ The key point for consuming data for certain website is knows the tag/element of
 
 # Used library
 * BeautifulSoup
-*re
-*requests
-*htmlParse
+* re
+* requests
+* htmlParse
