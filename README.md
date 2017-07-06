@@ -1,9 +1,9 @@
 # python_scrapy
-practice/learning of python scrapy development
 
 #haven't finished yet
-
-#consuming_webpage.py
-this is a practice for consuming data in certain website. 
-It supposed you download webpage into same directory as this file.
+An application that will download all images of the given Tumblr account based on the Tumblr website input. The download images are supposed to create and donwload in one folder with named of account. This folder will under same directory as python file.
 The key point for consuming data for certain website is knows the tag/element of those data you want.
+
+
+# key tools
+1.
