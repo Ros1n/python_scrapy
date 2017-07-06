@@ -5,5 +5,8 @@ An application that will download all images of the given Tumblr account based o
 The key point for consuming data for certain website is knows the tag/element of those data you want.
 
 
-# key tools
-1.
+# Used library
+* BeautifulSoup
+*re
+*requests
+*htmlParse
