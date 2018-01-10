@@ -1,18 +1,17 @@
 # Python Scrapy
 
-An simple application that can download all images of the given Tumblr account, based on the correct Tumblr url input. The download images will automated store in a folder with named of that account. This folder are supposed to under same directory as python file.
-The key point for consuming data for certain website is knows the HTML tag/element you want. 
-Write this for practice purpose and develop my own flavor wheel.
+An simple crawler/scrapy that can download all images and video of the given Tumblr account, based on the Tumblr url input. The download stream will store in a folder under same directory as the running application. 
+The key point for this application is knowing the HTML structure of the targeted Tumblr blog, for example, is it controlled by the scroll or pagination? What are the tag id for those? How can we judge that there is no more page? How to filter the original image and thumbnail?
 
 ## Requiremetns
-*Python3.3+ or Python2.7(need to rewrite some functions)
-*Works on Linux, Windows, Mac Os
+*Python3.3+
+*Works on Windows
 
 ## Install and Use
-Just click "clone" or "download" in this page, and open the Python file Tumblr_scrapy.py
+Just click "clone" or "download" in this page, and open the Python file tumblr_crawler.py
 
-## Running the tests
-wait for upload(unfinish)
+## Update
+* rewrite the functions, make it suits more Tumblr blog structure, add function of downloading video.
 
 ## Reference libraries/APIs
 * BeautifulSoup
