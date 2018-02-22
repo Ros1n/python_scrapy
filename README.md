@@ -25,3 +25,8 @@ This program may not work due to different BeautifulSoup version
 * re  
 * requests  
 * htmlParse  
+
+## Display
+The program should run like this(in Sublime command):
+![alt text](https://github.com/Ros1n/python_scrapy/blob/master/crawler_display.PNG)
+
